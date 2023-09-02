@@ -1,0 +1,44 @@
+.conteiner{
+    perspective: 1000px;
+    perspective-origin: 100% 100%;
+}
+.cube{
+    position: relative;
+    width: 200px; 
+    height:200px;
+    transform-style: preserve-3d;
+}
+.cube >div{
+    position: absolute;
+    width: 200px;    
+    height:200px;
+    transform-style: preserve-3d;
+    opacity: 0.9;
+    background: radial-gradient(circle, rgba(2,0,36,1) 7%, rgba(44,18,32,1) 9%, rgba(98,96,135,1) 30%, rgba(2,0,36,1) 45%, rgba(2,0,36,1) 47%, rgba(122,51,25,1) 64%, rgba(203,85,18,1) 72%, rgba(157,66,22,1) 74%, rgba(221,92,16,1) 88%);
+}
+.S1{
+    transform: translateZ(100px);
+}
+.S2{
+    transform:  rotateY(90deg) translateZ(100px);
+}
+.S3{
+    transform:  rotateY(180deg) translateZ(100px);
+}
+.S4{
+    transform:  rotateX(-90deg) translateZ(100px);
+}
+.S5{
+    transform:  rotateY(90deg) translateZ(100px);
+    rotate: (180deg);
+}
+.S6{
+    transform:  rotateX(-90deg) translateZ(100px);
+}
+
+@keyframes rotate{
+    100%{
+        transform: rotateX(0deg) rotate(360deg)
+        rotateZ(360deg);
+}
+}

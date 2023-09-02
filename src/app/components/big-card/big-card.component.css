@@ -1,0 +1,65 @@
+/* Estilização do big card */
+.big-card {
+    display: block; /* Altere para display block para que o "big card" cresça para baixo */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 40px;
+    background-color: #020202;
+    box-shadow: 0 4px 8px rgba(245, 244, 244, 0.2);
+    max-width: 700px;
+    transition: transform 0.2s
+  }
+  
+  .big-card img {
+    max-width: 675px;
+    height: auto;
+    border-radius: 5px;
+    margin: 0 auto 20px; /* Centralize a imagem e adicione margem na parte inferior */
+    display: block; /* Evite espaços extras ao redor da imagem */
+  }
+  
+  .big-card h2 {
+    font-size: 36px;
+    margin-top: 0;
+    color: #fff4f4;
+  }
+  
+  .big-card p {
+    font-size: 20px;
+    color: #ffffff;
+    margin: 10px 0;
+  }
+  
+  .big-card .article-details {
+    margin-top: 20px;
+  }
+  
+  .big-card .article-details p {
+    font-size: 20px;
+    margin: 10px 0;
+  }
+  
+  .big-card .article-details p span {
+    font-weight: bold;
+  }
+  
+  .big-card a.btn {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 24px;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+  }
+  
+  .big-card a.btn:hover {
+    background-color: #0056b3;
+  }
+  .big-card:hover {
+    transform: scale(1.05); /* Aumentar o card ao passar o mouse */
+  }
+  

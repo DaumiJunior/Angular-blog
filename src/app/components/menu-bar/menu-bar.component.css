@@ -1,0 +1,19 @@
+
+    hr{
+        margin-top: 30px;
+        margin-bottom: 30px;
+        
+    }
+    div{
+        background: rgb(51,72,254);
+        background: linear-gradient(90deg, rgba(51,72,254,1) 29%, rgba(47,125,219,1) 39%, rgba(55,185,165,1) 53%, rgba(65,255,103,1) 82%, rgba(37,250,136,1) 95%);
+    
+}
+ h1, .container menu {
+    color: white;
+    font-size: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+ }

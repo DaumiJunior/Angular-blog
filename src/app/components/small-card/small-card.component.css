@@ -1,0 +1,56 @@
+/* Estilo para o card */
+.conteiner-small {
+    display: flex;
+    flex-direction: row;
+    max-width: 600px; /* Largura máxima do card */
+    margin: 20px; /* Espaçamento entre os cards */
+    border: 1px solid #ffffff; /* Borda do card */
+    border-radius: 8px; /* Borda arredondada */
+    box-shadow: 0 4px 8px rgba(245, 244, 244, 0.2);
+    transition: transform 0.2s; /* Efeito de transformação suave ao passar o mouse */
+    background-color: #000000; /* Cor de fundo do card */
+    position: relative; /* Posição relativa para alinhar o botão */
+  }
+  
+  .conteiner-small:hover {
+    transform: scale(1.05); /* Aumentar o card ao passar o mouse */
+  }
+  
+  .card-img-top {
+    max-height: 200px; /* Altura máxima da imagem */
+    object-fit: cover; /* Ajustar a imagem ao tamanho da área */
+    border-top-left-radius: 8px; /* Borda arredondada superior esquerda */
+    border-top-right-radius: 8px; /* Borda arredondada superior direita */
+    border: 10px solid #000000; /* Adicionar uma borda ao redor da imagem */
+  }
+  
+  /* Estilo para o título do card */
+  .card-title {
+    font-size: 1.25rem; /* Tamanho da fonte do título */
+    margin-top: 10px; /* Espaçamento superior */
+    color: white;
+}
+
+/* Estilo para o texto do card */
+.card-text {
+    font-size: 1rem; /* Tamanho da fonte do texto */
+    color: white;
+}
+  
+  /* Estilo para o botão de leitura */
+  .btn-primary {
+    background-color: #007bff; /* Cor de fundo do botão */
+    color: #fff; /* Cor do texto do botão */
+    border: none; /* Remover borda do botão */
+    border-radius: 4px; /* Borda arredondada do botão */
+    padding: 8px 16px; /* Espaçamento interno do botão */
+    text-decoration: none; /* Remover sublinhado de link */
+    position: absolute; /* Posição absoluta para alinhar à direita */
+    bottom: 10px; /* Distância do botão a partir do fundo do card */
+    right: 10px; /* Distância do botão a partir da direita do card */
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3; /* Cor de fundo do botão ao passar o mouse */
+  }
+  
