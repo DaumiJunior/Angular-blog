@@ -9,6 +9,7 @@ import { BigCardComponent } from './components/big-card/big-card.component';
 import { SmallCardComponent } from './components/small-card/small-card.component';
 import { CubeLogoComponent } from './components/cube-logo/cube-logo.component';
 import { HomeComponent } from './pages/home/home.component';
+import { ContentComponent } from './pages/content/content.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { HomeComponent } from './pages/home/home.component';
     BigCardComponent,
     SmallCardComponent,
     CubeLogoComponent,
-    HomeComponent
+    HomeComponent,
+    ContentComponent,
   ],
   imports: [
     BrowserModule,

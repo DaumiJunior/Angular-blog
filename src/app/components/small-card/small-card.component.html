@@ -1,9 +1,9 @@
 <div class="conteiner-small">
-    <img src="https://th.bing.com/th/id/OIP.YczErgtE71ZkacUJm2pB1AHaEK?pid=ImgDet&rs=1" alt="Imagem do Artigo" class="card-img-top">
+    <img src="{{ SmallImage }}" alt="Imagem do Artigo" class="card-img-top">
     <div class="card-body">
-      <h5 class="card-title">Título do Artigo</h5>
-      <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla eget quam eget dui varius dictum.</p>
-      <a href="#" class="btn btn-primary">Leia mais</a>
+      <h5 class="card-title"><a [routerLink]="['content', id]">{{ SmallTitle }}</a></h5>
+      <p class="card-text">{{ SmallDescription }}</p>
+      <a [routerLink]="['content', id]" class="btn btn-primary">Leia mais</a>
     </div>
   </div>
   

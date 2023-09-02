@@ -1,0 +1,55 @@
+/* Estilos para a div principal que envolve todo o conteúdo */
+.content-All {
+    text-align: center;
+    margin: 20px;
+    color: white;
+}
+
+/* Estilos para a capa (cover) */
+.cover {
+    background: rgb(16,16,16);
+background: radial-gradient(circle, rgba(16,16,16,1) 25%, rgba(16,16,16,1) 31%, rgba(26,15,15,1) 39%, rgba(47,14,14,1) 43%, rgba(102,10,10,1) 56%, rgba(119,9,9,1) 64%, rgba(126,9,9,1) 66%, rgba(150,7,7,1) 72%, rgba(160,6,6,1) 77%, rgba(168,6,6,1) 79%, rgba(196,4,4,1) 85%, rgba(202,4,4,1) 92%, rgba(226,2,2,1) 95%, rgba(255,0,0,1) 100%);;
+    padding: 20px;
+}
+
+/* Estilos para a imagem dentro da capa */
+.cover img {
+    max-width: 100%;
+    height: auto;
+    border: 5px solid #000;
+    box-shadow: 0 4px 8px rgba(245, 244, 244, 0.2);
+}
+
+/* Estilos para o título */
+.title {
+    margin: 20px 0;
+}
+
+/* Estilos para a linha horizontal dentro do título */
+.title hr {
+    border: none;
+    border-top: 2px solid #333;
+    width: 100%;
+    margin: 15px auto;
+}
+
+/* Estilos para o conteúdo (content-Description) */
+.content-Description {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: justify; /* Justificar o texto para melhor legibilidade */
+    background-color: #000;
+    border-radius: 20px;
+}
+
+/* Estilizando o texto do conteúdo */
+.content-Description p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 15px; /* Adicionando espaço entre os parágrafos */
+}
+a {
+    background-color: rgb(0, 0, 0);
+    border-radius: 2px;
+}

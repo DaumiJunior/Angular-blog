@@ -24,7 +24,9 @@
     margin-top: 0;
     color: #fff4f4;
   }
-  
+  a{
+    color: white !important;
+  }
   .big-card p {
     font-size: 20px;
     color: #ffffff;
